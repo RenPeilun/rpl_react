@@ -1,0 +1,54 @@
+body {
+	background-color: #f0f0f0;
+}
+
+
+/* photoswipe css */
+.disease-img {
+	margin-top: 10px;
+	width: 85%;
+	display: inline-block;
+}
+
+.disease-img .pswp-thumbnail{
+	display: inline-block;
+	margin: 10px;
+}
+
+.pswp-thumbnail {
+  display: inline-block;
+  width: 120px;
+  height: 90px;
+  margin: 0 10px 10px 0;
+  cursor: pointer;
+  img {
+    max-width: 100%;
+  }
+}
+
+.pswp__img {
+	top: 50%;
+	left: 50%;
+}
+
+.star {
+	position: relative;
+	width: 50px;
+	height: 50px;
+}
+.star-gray {
+	z-index: 9;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-image: url("../style/image/star2.png");
+	background-repeat: no-repeat;
+}
+.star-yellow {
+	z-index: 10;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-image: url("../style/image/star1.png");
+	background-repeat: no-repeat;
+}
