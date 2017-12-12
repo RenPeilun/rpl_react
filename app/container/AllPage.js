@@ -9,7 +9,7 @@ class AllPage extends React.Component {
 
 	componentWillMount() {
 		// this.props.testAction()
-		this.props.loadProvince()
+		// this.props.loadProvince()
 	}
 
 	render() {
