@@ -11,7 +11,9 @@ import { DatePicker } from 'antd'
 // import PhotoSwipeTest from './PhotoSwipeTest'
 // import PhotoSwipeTest1 from './PhotoSwipeTest1'
 // import ChartTest from './ChartTest'
-import ArrayList from './reactPerfTest/ArrayList'
+
+// import ArrayList from './reactPerfTest/ArrayList' // 测试Perf，render次数
+import TestRender from './reactRenderTest/TestRender' // 测试bind与箭头函数对组件render的影响
 
 // all the test style
 import '../style/normalize.scss'
@@ -30,8 +32,7 @@ export default class AllComponent extends React.Component {
 	render() {
 		let self = this
 		return (
-			<ArrayList />
-				
+			<TestRender />	
 		)
 	}
 }
